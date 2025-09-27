@@ -1,0 +1,226 @@
+*{
+	padding : 0;
+	margin : 0;
+	box-sizing : border-box;
+	line-height : 1.2;
+}
+
+body{
+	font-family: "PT Sans", sans-serif;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.headerSection{
+	background-color: #fcdb00;
+	padding: 60px 0 105px;
+}
+
+.headerSection .navbar-default{
+	background: none;
+	border: none;
+	box-shadow: none;
+	margin-bottom: 60px;
+}
+
+.headerSection .navbar-default .navbar-brand{
+	padding: 0;
+}
+
+.headerSection .navbar-default .navbar-right a{
+	color: #010101;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 10px;
+	margin-left: 52px;
+}
+
+.heading-pri{
+	color: #010101;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.heading-sec{
+	color: #313841;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.heading-para{
+	color: #555555;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 42px;
+}
+
+.headerSection .header-list li{
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.headerSection .header-list a{
+	font-size: 42px;
+	color: #010101;
+	transition: all 0.4s ease-in-out; 
+}
+
+.headerSection .header-list a:hover{
+	background-color: white;
+}
+
+.headerSection .Ipad{
+	margin-left: 13%;
+}
+
+.Features{ 
+	padding: 119px 0 75px;
+}
+
+.Features .features-Info h3{
+	margin-bottom: 70px;
+}
+
+.Features .thumbnail{
+	display: table;
+	clear: both;
+	width: 100%;
+	margin-bottom: 90px;
+}
+
+.Features .thumbnail i{
+	color: #010101;
+	font-size: 50px;
+}
+
+.thumbnail-info h3{
+	color: #010101;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 0 0 18px;;
+}
+
+.thumbnail-info p{
+	color: #898989;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.footerSection{
+	padding: 90px 0 140px;
+	background-color: #010101;
+}
+
+.footerSection .footer-heading h2{
+	color: #fcdb00;
+	font-size: 32px;
+}
+
+.footerSection .footer-heading h3{
+	color: #898989;
+	font-size: 20px;
+	margin-bottom: 38px;
+}
+
+.footerSection .Contact-Us{
+	margin-bottom: 75px;
+}
+
+.footerSection .Contact-Us .submit{
+	background-color: #fcdb00;
+	border: 2px solid #fcdb00;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #010101;
+	transition: all 0.5s ease-in-out;
+}
+
+.footerSection .Contact-Us .submit:hover{
+	color: green;
+	background-color: #010101;
+}
+
+
+.footerSection .social-Icon li{
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.footerSection .social-Icon li i{
+	font-size: 42px;
+	color: #fcdb00;
+}
+
+
+
+.footerSection .Icon{
+	margin-bottom: 75px;
+}
+
+
+.footerSection .social-Icon{
+	margin-bottom: 135px;
+}
+
+.footerSection .footer-list li, .footerSection .footer-list li a{
+	color: #ffffff;
+	font-size: 16px;
+}
+
+@media all and (max-width:768px){
+	headerSection{
+		padding: 50px 0;
+	}
+	.headerSection .navbar-default .navbar-toggle{
+		border: none;
+	}
+	.headerSection .navbar-default .navbar-collapse{
+		border: none;
+		box-shadow: none;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color: transparent;
+	}
+	.headerSection .Ipad{
+		margin: 35px 0 0;
+	}
+	.headerSection .Inspiration{
+		text-align: center;
+	}
+	.headerSection .Ipad img{
+		margin: 0 auto;
+	}
+	
+	.Features{
+	padding: 50px 0;
+	}
+	.Features .features-Info h3{
+		margin-bottom: 30px;
+	}
+	
+	.footerSection{
+		padding: 50px 0;
+	}
+	
+	.footerSection .Contact-Us .submit{
+		width: auto;
+		margin-bottom: 20px;
+	}
+	
+	.footerSection .social-Icon{
+		margin-bottom: 0;
+	}
+}
+
+
